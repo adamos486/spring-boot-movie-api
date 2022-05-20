@@ -15,40 +15,6 @@ import lombok.ToString;
 @ToString
 public class OMDBMovie {
 
-    /*
-{
-  "Title": "Terminator",
-  "Year": "1991",
-  "Rated": "N/A",
-  "Released": "N/A",
-  "Runtime": "39 min",
-  "Genre": "Short, Action, Sci-Fi",
-  "Director": "Ben Hernandez",
-  "Writer": "James Cameron, Ben Hernandez",
-  "Actors": "Loris Basso, James Callahan, Debbie Medows",
-  "Plot": "A cyborg comes from the future, to kill a girl named Sarah Lee.",
-  "Language": "English",
-  "Country": "United States",
-  "Awards": "N/A",
-  "Poster": "N/A",
-  "Ratings": [
-    {
-      "Source": "Internet Movie Database",
-      "Value": "6.1/10"
-    }
-  ],
-  "Metascore": "N/A",
-  "imdbRating": "6.1",
-  "imdbVotes": "36",
-  "imdbID": "tt5817168",
-  "Type": "movie",
-  "DVD": "N/A",
-  "BoxOffice": "N/A",
-  "Production": "N/A",
-  "Website": "N/A",
-  "Response": "True"
-}
-     */
     @JsonProperty("Title")
     private String title;
     @JsonProperty("Year")
